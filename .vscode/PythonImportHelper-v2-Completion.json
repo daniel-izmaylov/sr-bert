@@ -1841,15 +1841,6 @@
         "documentation": {}
     },
     {
-        "label": "BertForSequenceClassification_v2",
-        "kind": 6,
-        "importPath": "Untitled-1",
-        "description": "Untitled-1",
-        "peekOfCode": "class BertForSequenceClassification_v2(BertForSequenceClassification):\n    def __init__(self, config):\n        super().__init__(config)\n        self.dropout = nn.Dropout(config.hidden_dropout_prob)\n        self.classifier = nn.Linear(config.hidden_size, config.num_labels)\n        self.init_weights()\n        self.post_init()\n    def forward(\n        self,\n        input_ids=None,",
-        "detail": "Untitled-1",
-        "documentation": {}
-    },
-    {
         "label": "DialogTransformerDataset",
         "kind": 6,
         "importPath": "data_loader",
